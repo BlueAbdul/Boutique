@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Feuille Ciseaux</title>
+    <script src="jzon.json"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .desc{
+            display: flex;
+        }
+
+        .smallfont{
+            font-size: 10px;
+        }
+
+        body{
+            background: url('./images/background.png') ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container{
+            background: #524E7D;
+            min-height: 100vh;
+            box-shadow: 0 0 50px #524EB7;
+        }
+
+        #img{
+            width: 150px;
+            height: 250px;
+            margin: auto;
+        }
+
+       #articleDisplay{
+           display: flex;
+           flex-wrap: wrap;
+       }
+
+       .card{
+           margin: 10px;
+       }
+
+       .card h5{
+           font-size: 12px;
+       }
+
+       #goCart{
+           font-size: 10px;
+       }
+       @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .smallSide{
+            width: 20vw;
+            height: 100vh;
+            overflow-y: scroll;
+            margin-left: 80vw;
+            position: fixed;
+            background: white;
+            box-shadow: 0 0 50px white;
+            float: right;
+            display: flex;
+            align-self: flex-end;
+        } 
+
+        .hide{
+            animation: fadeIn 2s reverse;
+            opacity: 0;
+        }   
+        .show{
+            animation: fadeIn 2s;
+            opacity: 0;
+        }   
+
+      
+    </style>
+</head>
+<body>
+    <div class="smallSide">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" id="total">Vos articles</th>
+              </tr>
+            </thead>
+            <tbody id="myCart">
+              <tr>
+                <td scope="row">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text smallfont">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small>Price</small></p>
+                          <p> <small>number</small> </p>
+                        </div>
+                      </div>
+                </td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+      <div class="col-12 ml-5" id="articleDisplay">
+      </div>
+    </div>
+    
+
+    
+    <script src="./script1.js">
+    </script>
+    <script src="./script.js">
+    </script>
+</body>
+</html>

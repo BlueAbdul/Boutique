@@ -1,0 +1,47 @@
+[
+    {
+        "name": "World of warcraft",
+        "price": "10€",
+        "desc": "Jeu de base, mettez votre vie de côté !"
+    },
+    {
+        "name": "World of warcraft : Burning Crusade",
+        "price": "15€",
+        "desc": "Affronter l'outreterre !"
+    },
+    {
+        "name": "World of warcraft : Wrath of the lich king",
+        "price": "20€",
+        "desc": "Affrontez les morts vivants !"
+    },
+    {
+        "name": "World of warcraft : Cataclysm",
+        "price": "25€",
+        "desc": "Affrontez la fin du monde !"
+    },
+    {
+        "name": "World of warcraft : Mists of Pandaria",
+        "price": "30€",
+        "desc": "Affrontez ces horribles pandas !"
+    },
+    {
+        "name": "World of warcraft : Warlords of Draenor",
+        "price": "35€",
+        "desc": "Affrontez les orcs !"
+    },
+    {
+        "name": "World of warcraft : Legion",
+        "price": "40€",
+        "desc": "Affrontez la legion ardente !"
+    },
+    {
+        "name": "World of warcraft : BFA",
+        "price": "2€",
+        "desc": "Affrontez la déception !"
+    },
+    {
+        "name": "World of warcraft : Shadowlands",
+        "price": "45€",
+        "desc": "Affrontez je ne sais pas trop quoi !"
+    }
+]
